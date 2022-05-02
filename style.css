@@ -1,0 +1,466 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Questrial', sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+/*  container style start  */
+
+
+.container {
+    //border: 1px solid black;
+    width: 100%;
+    height: 170vh;
+    background-color: #E3C390;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+/*  section1 style start  */
+
+
+.section1 {
+    //border: 1px solid black;
+    width: 92%;
+    height: 90%;
+    background-color: #FFFCF7;
+}
+
+/*  nav style start  */
+
+
+.nav {
+    //border: 1px solid black;
+    width: 85%;
+    height: 70px;
+    margin: 10px auto 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navleft {
+    //border: 1px solid black;
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.circulicon {
+    color: #FFC236;
+}
+.span {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.navcenter {
+    //border: 1px solid black;
+    width: 56%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.navcenter ul {
+    display: flex;
+}
+.navcenter ul li {
+    list-style: none;
+}
+.navcenter ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    margin: 16px;
+    text-transform: capitalize;
+    font-weight: 700;
+    display: inline-block;
+    transition: all 0.5s;
+}
+.navcenter a:hover {
+    transform: rotate(5deg);
+    color: rgb(92, 90, 90);
+}
+.navright {
+    //border: 1px solid black;
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.alink {
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    font-weight: 700;
+    background-color: black;
+    padding: 10px;
+    letter-spacing: 1.3px;
+    border-radius: 1px;
+    transition: all 0.3s;
+}
+.alink:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+/*  nav style end  */
+
+/*  section2 style start  */
+
+
+.section2 {
+    //border: 1px solid black;
+    width: 85%;
+    height: 530px;
+    margin: 70px auto 0px;
+    background-color: #FFFCF7;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*  s2left style start  */
+
+
+.s2left {
+    //border: 1px solid black;
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;    
+}
+.spanheader {
+    //border: 1px solid black;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+.spanheader span {
+    text-transform: uppercase;
+    color: rgb(233, 122, 19);
+    font-size: 15px;
+    font-weight: 600;
+}
+.planeicon {
+    color: rgb(233, 122, 19);
+}
+.tittles {
+    //border: 1px solid black;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.tittles h1 {
+    font-size: 57px;
+}
+.inputbox {
+    width: 100%;
+    height: 30px;
+}
+.tittles p {
+    font-size: 14px;
+    line-height: 22px;
+    opacity: 0.7;
+}
+.inputbox {
+    border: 1px solid  rgb(218, 142, 3);
+    width: 85%;
+    height: 50px;
+    margin: 0px 0px 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: 10px 37px 116px 0px rgba(0,0,0,0.12);
+    -webkit-box-shadow: 10px 37px 116px 0px rgba(0,0,0,0.12);
+    -moz-box-shadow: 10px 37px 116px 0px rgba(0,0,0,0.12);
+}
+.text {
+    width: 200px;
+    height: 95%;
+    border-bottom: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 10px;
+    font-size: 17px;
+}
+.text:focus {
+    outline: none;
+}
+.icon {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #0CC694;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.trustpilot {
+    //border: 1px solid black;
+    width: 95%;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+}
+.trusttop {
+    //border: 1px solid black;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+.staricon {
+    color: #14D3A0;
+}
+.staricon1 {
+    color: #FFB817;
+}
+.trusttop h2 {
+    font-size: 18px;
+    letter-spacing: -0.6px;
+}
+.trusttop span {
+    font-size: 16px;
+}
+.line {
+    border: 0.1px solid rgb(240, 169, 169);
+    width: 170px;
+    height: 1px;
+}
+.trustbottom {
+    //border: 1px solid black;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+.trustbottom span {
+    font-size: 15px;
+    font-weight: 600;
+    opacity: 0.7;
+    letter-spacing: -0.7px;
+}
+/*  s2left style end  */
+
+/*  s2center style start  */
+
+
+.s2center {
+    //border: 1px solid black;
+    width: 42%;
+    height: 100%;
+}
+.image {
+    //border: 1px solid black;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image img {
+    width: 340px;
+    height: 550px;
+    object-fit: cover;
+} 
+.background {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #FFBA1C;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+}
+
+/*  s2center style end  */
+
+/*  s2right style start  */
+
+
+.s2right {
+    //border: 1px solid black;
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.s2righttop {
+    //border: 1px solid black;
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.s2righttop h1 {
+    font-size: 48px;
+    letter-spacing: 1.3px;
+}
+.s2righttop p {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 24px;
+    padding-top: 12px;
+    opacity: 0.8;
+}
+.s2rightcenter {
+    //border: 1px solid black;
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.s2rightcenter {
+    font-size: 15px;
+    line-height: 24px;
+    opacity: 0.8;
+}
+.s2rightbottom {
+    //border: 1px solid black;
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.s2rightbottom span {
+    font-size: 15px;
+    opacity: 0.8;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+.s2rightbottomicon {
+    //border: 1px solid black;
+    width: 80%;
+    height: 28px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.box {
+    //border: 1px solid black;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box img {
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    opacity: 0.6;
+}
+
+/*  section2 style end  */
+
+/*  section3 style start  */
+
+.section3 {
+    //border: 1px solid black;
+    width: 85%;
+    height: 160px;
+    margin: 40px auto 0px;
+    z-index: 2;
+}
+.blackbox {
+    //border: 1px solid black;
+    width: 90%;
+    height: 100%;
+    float: right;
+    background-color: #292931;
+
+}
+.greenbox {
+    //border: 1px solid black;
+    width: 20%;
+    height: 80%;
+    margin: 32px -107px 0px;
+    background-color: #1CDFAB;
+    display: flex;
+}
+.greenboxleft {
+    //border: 1px solid black;
+    width: 30%;
+    height: 100%;
+}
+.trophyicon {
+    color: white;
+    margin: 20px;
+    opacity: 0.9;
+}
+.greenboxright {
+    //border: 1px solid black;
+    width: 50%;
+    height: 100%;
+}
+.greenboxright h2 {
+    font-size: 16px;
+    margin: 20px 0px 0px;
+    color: white;
+    opacity: 0.9;
+}
+.lasttext {
+    //border: 1px solid black;
+    width: 480px;
+    height: 130px;
+    position: absolute;
+    margin: -140px 60px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.lasttext h2 {
+    font-size: 18px;
+    color: white;
+    opacity: 0.9;
+    line-height: 28px;
+}
+.lasttext p {
+    font-size: 14px;
+    color: white;
+    opacity: 0.9;
+    line-height: 23px;
+}
+.imagebox {
+    //border: 1px solid black;
+    width: 250px;
+    height: 80%;
+    float: right;
+    margin: -70px 90px 0px;
+    background-color: white;
+    overflow: hidden;
+}
+.imagebox img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 0px 70px 0px;
+}
